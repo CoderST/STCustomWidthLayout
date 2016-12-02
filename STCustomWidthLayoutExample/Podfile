@@ -6,5 +6,5 @@ target 'STCustomWidthLayoutExample' do
   use_frameworks!
 
 pod 'SVProgressHUD', '~> 2.0.4'
-pod 'STCustomWidthLayout', '~> 0.0.4'
+pod 'STCustomWidthLayout', '~> 0.0.6'
 end

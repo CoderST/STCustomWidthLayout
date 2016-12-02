@@ -1,15 +1,15 @@
 PODS:
-  - STCustomWidthLayout (0.0.4)
+  - STCustomWidthLayout (0.0.6)
   - SVProgressHUD (2.0.4)
 
 DEPENDENCIES:
-  - STCustomWidthLayout (~> 0.0.4)
+  - STCustomWidthLayout (~> 0.0.6)
   - SVProgressHUD (~> 2.0.4)
 
 SPEC CHECKSUMS:
-  STCustomWidthLayout: f9f26116e6fc3fecc41098391fcb459c8f9a4c42
+  STCustomWidthLayout: 554fff54d758ad0b5f0fc3569f35139ce912cbbf
   SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
 
-PODFILE CHECKSUM: 3ba7f5e0bc2a28cb7a8a5b1d61f9752fb76bc094
+PODFILE CHECKSUM: 14710cb749bba083c6d769d0a09494b74fabcb94
 
 COCOAPODS: 1.1.1

@@ -13,6 +13,7 @@
 		0F24ED081DF115CD00C678F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F24ED071DF115CD00C678F1 /* Assets.xcassets */; };
 		0F24ED0B1DF115CD00C678F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F24ED091DF115CD00C678F1 /* LaunchScreen.storyboard */; };
 		0F24ED161DF115CD00C678F1 /* STCustomWidthLayoutExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F24ED151DF115CD00C678F1 /* STCustomWidthLayoutExampleUITests.swift */; };
+		0F7153441DF14B2C000CB99D /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7153431DF14B2C000CB99D /* TestModel.swift */; };
 		84FC5CCC82F6891E1EA0DA78 /* Pods_STCustomWidthLayoutExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C9808295717BF6DC33FC91E /* Pods_STCustomWidthLayoutExample.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		0F24ED111DF115CD00C678F1 /* STCustomWidthLayoutExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STCustomWidthLayoutExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F24ED151DF115CD00C678F1 /* STCustomWidthLayoutExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCustomWidthLayoutExampleUITests.swift; sourceTree = "<group>"; };
 		0F24ED171DF115CD00C678F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7153431DF14B2C000CB99D /* TestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		1C9808295717BF6DC33FC91E /* Pods_STCustomWidthLayoutExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCustomWidthLayoutExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		586F1241A4105634740141E9 /* Pods-STCustomWidthLayoutExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCustomWidthLayoutExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-STCustomWidthLayoutExample/Pods-STCustomWidthLayoutExample.release.xcconfig"; sourceTree = "<group>"; };
 		ECAB764130594BE941125076 /* Pods-STCustomWidthLayoutExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STCustomWidthLayoutExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STCustomWidthLayoutExample/Pods-STCustomWidthLayoutExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 		0F24ECFF1DF115CD00C678F1 /* STCustomWidthLayoutExample */ = {
 			isa = PBXGroup;
 			children = (
+				0F7153431DF14B2C000CB99D /* TestModel.swift */,
 				0F24ED001DF115CD00C678F1 /* AppDelegate.swift */,
 				0F24ED021DF115CD00C678F1 /* ViewController.swift */,
 				0F24ED041DF115CD00C678F1 /* Main.storyboard */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7153441DF14B2C000CB99D /* TestModel.swift in Sources */,
 				0F24ED031DF115CD00C678F1 /* ViewController.swift in Sources */,
 				0F24ED011DF115CD00C678F1 /* AppDelegate.swift in Sources */,
 			);
