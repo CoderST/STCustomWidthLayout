@@ -1,12 +1,12 @@
 PODS:
-  - STCustomWidthLayout (0.0.9)
+  - STCustomWidthLayout (1.0.0)
 
 DEPENDENCIES:
-  - STCustomWidthLayout (~> 0.0.9)
+  - STCustomWidthLayout (~> 1.0.0)
 
 SPEC CHECKSUMS:
-  STCustomWidthLayout: f2d9a0bea271785e6e87517f4fc26835e97679c7
+  STCustomWidthLayout: c7736ebe3f86cbe3c8c7ada108436aa71554b902
 
-PODFILE CHECKSUM: b1363c5ee4a4dffa8dabf1db1a562e08c0f127ce
+PODFILE CHECKSUM: e7f93ca83e1e639d7cae584d309732bc7e2194c0
 
 COCOAPODS: 1.1.1

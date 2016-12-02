@@ -4,5 +4,5 @@
 target 'STCustomWidthLayoutExample' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-pod 'STCustomWidthLayout', '~> 0.0.9'
+pod 'STCustomWidthLayout', '~> 1.0.0'
 end
