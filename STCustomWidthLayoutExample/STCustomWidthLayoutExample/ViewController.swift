@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
 
-        let layout = STCustomWidthLayout()
+//        let layout = STCustomWidthLayout()
         
 //        let sv = SVProgressHUD()
         

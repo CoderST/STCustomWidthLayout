@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
 s.name         = "STCustomWidthLayout"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "swift版自定义宽度流水布局."
  # 开源许可证
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
