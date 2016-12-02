@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
 s.name         = "STCustomWidthLayout"
-s.version      = "0.0.1"
+s.version      = "0.0.3"
 s.summary      = "swift版自定义宽度流水布局."
  # 开源许可证
 s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -31,5 +31,5 @@ s.source       = { :git => 'https://github.com/CoderST/STCustomWidthLayout.git',
 # 是否支持arc
 s.requires_arc = true
 # 文件
-s.source_files = 'STCustomWidthLayout/**/*.{swift}'
+s.source_files = 'STCustomWidthLayout/*.swift'
 end

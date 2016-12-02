@@ -1,0 +1,15 @@
+PODS:
+  - STCustomWidthLayout (0.0.3)
+  - SVProgressHUD (2.0.4)
+
+DEPENDENCIES:
+  - STCustomWidthLayout
+  - SVProgressHUD (~> 2.0.4)
+
+SPEC CHECKSUMS:
+  STCustomWidthLayout: 69590703a576b25870f6791f763b6bb9f2647316
+  SVProgressHUD: bfde85ed6c573ea802b9cb37894ed9b629034f1b
+
+PODFILE CHECKSUM: 48f598201485ffc37efb94d3ae3965956dc43f7a
+
+COCOAPODS: 1.1.1
