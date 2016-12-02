@@ -8,9 +8,9 @@
 
 import UIKit
 
-@objc protocol STCustomWidthLayoutDelegate : class {
+ @objc public protocol STCustomWidthLayoutDelegate : class {
     // Variable height support
-    func stLayoutWidthtForRowAtIndexPath(stLayout : STCustomWidthLayout, indexPath : NSIndexPath)->CGFloat
+     func stLayoutWidthtForRowAtIndexPath(stLayout : STCustomWidthLayout, indexPath : NSIndexPath)->CGFloat
     // Height of Item
     @objc optional func heightForRowAtIndexPath(stLayout : STCustomWidthLayout)->CGFloat
     // Space of Colums
@@ -45,7 +45,7 @@ public class STCustomWidthLayout: UICollectionViewFlowLayout {
     /** 每一个item左边的的位置 */
     private var stItemLeft : CGFloat = 0
     /** 代理 */
-    var delegate : STCustomWidthLayoutDelegate?
+    weak public var delegate : STCustomWidthLayoutDelegate?
     
     /** 边缘间距 */
     private var stEdgeInsets_c : UIEdgeInsets?{

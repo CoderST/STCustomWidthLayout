@@ -1,6 +1,0 @@
-framework module STCustomWidthLayout {
-  umbrella header "STCustomWidthLayout-umbrella.h"
-
-  export *
-  module * { export * }
-}
