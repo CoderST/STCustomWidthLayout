@@ -11,15 +11,15 @@ import STCustomWidthLayout
 class ViewController: UIViewController {
 
     // MARK:- 懒加载
-    private lazy var array : [TestModel] = [TestModel]()
-    private lazy var collectionView : UICollectionView = {[weak self] in
+    fileprivate lazy var array : [TestModel] = [TestModel]()
+    fileprivate lazy var collectionView : UICollectionView = {[weak self] in
         let layout = STCustomWidthLayout()
         layout.delegate = self
         let collectionView = UICollectionView(frame: (self?.view.bounds)!, collectionViewLayout: layout)
-        collectionView.backgroundColor = UIColor.orangeColor()
+        collectionView.backgroundColor = UIColor.orange
         collectionView.dataSource = self
         
-        collectionView.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
+        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "cell")
         
         return collectionView
         }()
@@ -28,9 +28,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(collectionView)
-        let button = UIButton(type: UIButtonType.ContactAdd)
+        let button = UIButton(type: UIButtonType.contactAdd)
         button.center = CGPoint(x: 300, y: 100)
-        button.addTarget(self, action: "buttonClick", forControlEvents: .TouchUpInside)
+        button.addTarget(self, action: #selector(ViewController.buttonClick), for: .touchUpInside)
         view.addSubview(button)
 
         
@@ -50,16 +50,16 @@ class ViewController: UIViewController {
 }
 // MARK:- UICollectionViewDataSource
 extension ViewController : UICollectionViewDataSource {
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
         print(array.count)
         return array.count
     }
     
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell{
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell{
         
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
         
-        cell.backgroundColor = UIColor.redColor()
+        cell.backgroundColor = UIColor.red
         
         return cell
     }
@@ -68,12 +68,12 @@ extension ViewController : UICollectionViewDataSource {
 
 // MARK:- STRowFollowLayoutDelegate
 extension ViewController : STCustomWidthLayoutDelegate {
-    func stLayoutWidthtForRowAtIndexPath(stLayout: STCustomWidthLayout, indexPath: NSIndexPath) -> CGFloat {
+    func stLayoutWidthtForRowAtIndexPath(_ stLayout: STCustomWidthLayout, indexPath: IndexPath) -> CGFloat {
         let model = array[indexPath.item]
         return model.width
     }
     
-    func heightForRowAtIndexPath(stLayout: STCustomWidthLayout) -> CGFloat {
+    func heightForRowAtIndexPath(_ stLayout: STCustomWidthLayout) -> CGFloat {
         
         return 40
     }

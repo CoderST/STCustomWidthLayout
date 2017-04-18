@@ -31,19 +31,19 @@
 		1E5EDF820016A5B4C66F06E8EDF5DA0C /* STCustomWidthLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STCustomWidthLayout-prefix.pch"; sourceTree = "<group>"; };
 		26024BC26F4BFD87BBC4646D3522F9A7 /* Pods-STCustomWidthLayoutExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STCustomWidthLayoutExample.release.xcconfig"; sourceTree = "<group>"; };
 		2B4843A614E5D25E268A75452D30CC26 /* STCustomWidthLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STCustomWidthLayout-umbrella.h"; sourceTree = "<group>"; };
-		526D66FEEEF9DB195407D99B0730FBDF /* Pods_STCustomWidthLayoutExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_STCustomWidthLayoutExample.framework; path = "Pods-STCustomWidthLayoutExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526D66FEEEF9DB195407D99B0730FBDF /* Pods_STCustomWidthLayoutExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STCustomWidthLayoutExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		585C681515AE702B124CAF4ACCD90686 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B10CDF59F3F476F527EEFA8A4290386 /* Pods-STCustomWidthLayoutExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-STCustomWidthLayoutExample-umbrella.h"; sourceTree = "<group>"; };
 		65D7C241B9AE7E06D0001BA9D3A1CE85 /* Pods-STCustomWidthLayoutExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-STCustomWidthLayoutExample.debug.xcconfig"; sourceTree = "<group>"; };
 		6CA70DB076729D16C0D5678E29D792BA /* Pods-STCustomWidthLayoutExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STCustomWidthLayoutExample-resources.sh"; sourceTree = "<group>"; };
-		7D91E3AD2616DB66FD4947C6CF2A9D53 /* STCustomWidthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = STCustomWidthLayout.modulemap; sourceTree = "<group>"; };
+		7D91E3AD2616DB66FD4947C6CF2A9D53 /* STCustomWidthLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = STCustomWidthLayout.modulemap; sourceTree = "<group>"; };
 		8CF54EF086960C982735576C8535AFD8 /* STCustomWidthLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = STCustomWidthLayout.swift; path = STCustomWidthLayout/STCustomWidthLayout.swift; sourceTree = "<group>"; };
 		9302B7FC547F405FDA46DB57A9716D7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96632C3D474C401C978E3FAA234E6A28 /* STCustomWidthLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STCustomWidthLayout-dummy.m"; sourceTree = "<group>"; };
 		A46E9F62477DAC047A81ED22288A7802 /* STCustomWidthLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STCustomWidthLayout.xcconfig; sourceTree = "<group>"; };
-		A7AFD12465D05186871F63BA1BDBEB42 /* Pods-STCustomWidthLayoutExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-STCustomWidthLayoutExample.modulemap"; sourceTree = "<group>"; };
-		AD24FDA396B92DEA4AE9DD68A196D0F5 /* STCustomWidthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = STCustomWidthLayout.framework; path = STCustomWidthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AFD12465D05186871F63BA1BDBEB42 /* Pods-STCustomWidthLayoutExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-STCustomWidthLayoutExample.modulemap"; sourceTree = "<group>"; };
+		AD24FDA396B92DEA4AE9DD68A196D0F5 /* STCustomWidthLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STCustomWidthLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E1D7BB4853AF0B0538D6D9AD1CAADA79 /* Pods-STCustomWidthLayoutExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-STCustomWidthLayoutExample-frameworks.sh"; sourceTree = "<group>"; };
 		E896DD013BCC9CED01455584F187396F /* Pods-STCustomWidthLayoutExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-STCustomWidthLayoutExample-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 				8CF54EF086960C982735576C8535AFD8 /* STCustomWidthLayout.swift */,
 				59453FF702B1AC57C2AA5E58D239FAE3 /* Support Files */,
 			);
-			name = STCustomWidthLayout;
 			path = STCustomWidthLayout;
 			sourceTree = "<group>";
 		};
@@ -229,6 +228,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					81267B81757832F56DCDD39A99B7977C = {
+						LastSwiftMigration = 0820;
+					};
+					CFDEB20575F4E817045C970C8F0F45FA = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,6 +355,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -383,6 +391,7 @@
 				PRODUCT_NAME = Pods_STCustomWidthLayoutExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -454,6 +463,7 @@
 				PRODUCT_NAME = STCustomWidthLayout;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -490,6 +500,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
